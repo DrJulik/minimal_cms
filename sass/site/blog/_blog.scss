@@ -1,0 +1,42 @@
+// single post
+
+.post {
+    margin-bottom: 2em;
+    header {
+        margin: 0;
+    }
+
+    .cat-links,.tags-links{
+        a {
+            text-decoration: none;
+            color: #aaa;
+        }
+    }
+    
+
+
+
+    .cat-links {
+        margin-right: 1em;
+    }   
+}
+
+// the blog page
+
+.entry-title,.posted-on {
+    a {
+        text-decoration: none;
+    }
+    
+}
+
+ h1.entry-title {
+    margin: 0;
+}
+
+.post-thumbnail {
+    img{
+        margin-bottom: 2em;
+    }
+    
+}

@@ -1,0 +1,26 @@
+.wpcf7-form {
+    input, textarea {
+        background:#fafafa ;
+        padding: 7px;
+        border-radius: 1px;
+
+        &:focus {
+            background: #fff;
+        }
+    }
+
+    input[type="submit"] {
+        background-color: #272727;
+        border-color: #272727;
+        color: #fff;
+        padding: 0.5em 2em;
+        font-size: 1.3em;
+        font-family: $font_headings;
+        transition: opacity 0.5s;
+
+        &:hover {
+            opacity: 0.7;
+            cursor: pointer;
+        };
+    }
+}
